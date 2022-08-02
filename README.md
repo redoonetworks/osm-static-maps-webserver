@@ -12,11 +12,12 @@ This server take a structured POST request and return an image including an OSM 
   `forever start server`
 
 ## Docker Deployment
-
+```
   docker run --rm -d \
     -e TILEURL="https://tile.openstreetmap.org/{z}/{x}/{y}.png"  \
     -p 3001:3001  \
-    osm-static-map-webserver
+    redoonetworks/osm-static-maps-webserver
+```
 
 ## Environment variables
 
@@ -59,6 +60,10 @@ zoom, legs and marker are optional values.
 ## Response Structure
 
 You get a binary response, which include the defined map as PNG file.
+
+## Credits
+
+Use phantastic https://github.com/StephanGeorg/staticmaps to generate images.  
 
 ## Changelog
 
