@@ -1,0 +1,18 @@
+{
+  "name": "osm-static-map-generator",
+  "version": "1.0.3",
+  "description": "OSM Static Map Generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Redoo Networks GmbH <developer@redoo-networks.com> (https://www.redoo-networks.com/)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "staticmaps": "^1.10.0"
+  }
+}

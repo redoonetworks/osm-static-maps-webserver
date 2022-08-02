@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  web:
+    image: osm-static-map-generator
+#    environment:
+#      TILEURL: ""
+    ports:
+      - "3001:3001"
